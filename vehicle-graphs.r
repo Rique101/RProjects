@@ -10,3 +10,9 @@ lines(trucks, type = "o", pch = 22, lty = 2, col = "red")
 
 # create title for graph
 title(main = "Autos", col.main = "red", font.main = 4)
+
+# get list of all installed packages
+library()
+
+# get a list of all the loaded and attached packages
+search()
