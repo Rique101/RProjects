@@ -46,7 +46,7 @@ head(iris)
 plot(iris)
 
 # Give plot function qualitative variable in iris data frame
-# plot knew to generate a bar chart when it was given a 
+# plot knew to generate a bar chart when it was given a
 # categorical variable
 # the x-axis told us the different types of species
 # the y-axis told us the number of data points in each species
@@ -61,13 +61,13 @@ plot(iris$Petal.Length)
 
 # Give plot function 1 qualitative variable and 1 quantitative
 # variable in the iris data frame
-# plot knew to create a box and whisker plot when it was given 
+# plot knew to create a box and whisker plot when it was given
 # 1 qualitative variable and 1 quantitative variable
 # the x-axis told us the species
 # the y-axis told us the petal width range for each species
 plot(iris$Species, iris$Petal.Width)
 
-# Give the plot function 2 quantitative variables in the iris 
+# Give the plot function 2 quantitative variables in the iris
 # data frame and other options that will make the plot more
 # meaningful
 # Given 2 quantitative variables plot knew to create a scatter plot
@@ -82,7 +82,7 @@ plot(iris$Petal.Length, # data points for x-axis
 # Give plot the cosine function
 plot(cos, # cosine function
     0, # starting point
-    2*pi   # ending point 
+    2*pi   # ending point
 )
 
 # Give plot the exponential function
